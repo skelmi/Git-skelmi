@@ -17,7 +17,7 @@ public class Reader extends JFrame {
 		b1 = new JButton("ќчистить");
 		b2 = new JButton("ѕересчитать");
 		l1 = new JLabel("¬ведите первое число");
-		l2 = new JLabel("¬ведите ещЄ число");
+		l2 = new JLabel("¬ведите второе число");
 		l3 = new JLabel("");
 		l4 = new JLabel("");
 		t1 = new JTextField(10);
