@@ -22,7 +22,7 @@ public class Main extends JFrame implements Runnable{
 	public static void main(String[] args) {
 		//new Main("Привет");
 		new Thread( new Main("Test")).start();
-		//new Thread(new Server()).start();
+		new Thread(new Server()).start();
 	}
 
 	public Main(String name){
